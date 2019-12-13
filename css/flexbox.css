@@ -18,7 +18,7 @@
 }
 
 .flex-center-container {    
-    height: 400px;
+    height: 700px;
     display: flex;      
     flex-direction: row;
     flex-wrap: wrap;
@@ -63,7 +63,3 @@
 }
 
 /* Стили для центрирования */
-
-.flex-center-element {
-    
-}

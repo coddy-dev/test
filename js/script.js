@@ -35,7 +35,7 @@ document.addEventListener("keydown", moveUp);
 
 function moveUp(){
     if (yPos > 30){
-        yPos -= 25 ;
+        yPos -= 25  ;
         fly.play();
     }    
 }
