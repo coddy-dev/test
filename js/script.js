@@ -56,7 +56,7 @@ function draw(){
         }
 
         //  Отслеживание прикосновений
-        if(xPos + bird.width >= pipe[i].x
+        /* if(xPos + bird.width >= pipe[i].x
              && xPos <= pipe[i].x + pipeUp.width
               && (yPos <= pipe[i].y + pipeUp.height
                   || yPos + bird.height >= pipe[i].y
@@ -65,7 +65,7 @@ function draw(){
                  bird.height >= cvs.height - 
                  fg.height) {
                     location.reload();
-        }
+        } */
 
         if(pipe[i].x == 5){
             score++;            
