@@ -55,7 +55,7 @@ function draw(){
             });    
         }
 
-        //  Отслеживание прикосновений
+        //  Godmode
         /* if(xPos + bird.width >= pipe[i].x
              && xPos <= pipe[i].x + pipeUp.width
               && (yPos <= pipe[i].y + pipeUp.height
