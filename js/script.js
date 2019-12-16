@@ -18,7 +18,7 @@ pipeBottom.src = "img/flappy_bird_pipeBottom.png";
 pipe[0] = {
     x : cvs.width,
     y : 0
-}
+};
 
 var gap = 90;
 var xPos = 0;
@@ -41,7 +41,7 @@ function moveUp(){
 }
 
 function draw(){
-    ctx.drawImage(bg, 0, 0)
+    ctx.drawImage(bg, 0, 0);
 
     for (var i = 0; i < pipe.length; i++){
         ctx.drawImage(pipeUp, pipe[i].x, pipe[i].y);
@@ -52,7 +52,7 @@ function draw(){
             pipe.push({
                 x : cvs.width,
                 y: Math.floor(Math.random() * pipeUp.height) - pipeUp.height
-            })    
+            });    
         }
 
         //  Отслеживание прикосновений
